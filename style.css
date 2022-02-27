@@ -1,0 +1,185 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto", sans-serif;
+}
+.section-title {
+  font-weight: bolder;
+  margin-bottom: none;
+}
+.hr-style {
+  border: 5px dotted white;
+  border-bottom: none;
+  width: 100px;
+  background: none;
+  opacity: 1;
+  margin: auto;
+}
+
+/* header section start */
+header {
+  background-image: url(images/school.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.banner-container {
+  height: 100vh;
+}
+.navbar {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.navbar-icon {
+  color: white;
+}
+.navbar-brand img {
+  width: 80px;
+}
+.nav-link {
+  color: white;
+  margin: 10px;
+  transition: 0.4s;
+}
+.nav-link:hover {
+  transform: scale(1.1);
+  background-color: rgba(158, 22, 255, 0.781);
+  color: white;
+  border-radius: 5px;
+}
+.banner-contents h1 {
+  font-size: 100px;
+  color: rgb(255, 255, 255);
+  background-color: rgba(76, 0, 130, 0.336);
+  font-family: "Handlee", cursive;
+}
+/* header section end */
+
+/* features start form here */
+
+#features {
+  padding: 4% 10%;
+  background-color: #f2c9e1;
+}
+
+.icon-style {
+  background-color: #e04db0;
+  color: white;
+  padding: 15px;
+  border-radius: 50%;
+}
+.features-col {
+  border: 3px solid #5902ec;
+  border-radius: 5px;
+  padding: 20px 20px;
+  text-align: center;
+  /* margin: 70px 50px; */
+  cursor: pointer;
+  transition: 0.3s;
+}
+.features-col:hover {
+  transform: scale(1.1);
+  box-shadow: 2px 6px 5px black;
+}
+.features-col p {
+  text-align: justify;
+}
+/* features end form here */
+
+/* About me section start from here */
+#about-me {
+  padding: 4% 10%;
+  background-color: #f2c9e1e5;
+}
+#about-me p {
+  font-size: 1rem;
+  font-weight: lighter;
+}
+#about-me a {
+  text-decoration: none;
+}
+.star {
+  color: rgb(0, 0, 0);
+}
+.text-bold {
+  font-size: 1.1rem;
+  font-weight: bolder;
+}
+/* About me section end from here */
+
+/* Tutorial section start form here */
+#tutorial-section {
+  padding: 4% 10%;
+  background-color: #9ad0ec;
+}
+.card-hover {
+  border: 2px solid rgb(255, 0, 212);
+  transition: 0.4s;
+}
+.card-hover:hover {
+  transform: scale(1.1);
+  box-shadow: 2px 6px 5px black;
+  cursor: pointer;
+}
+/* Tutorial section end form here */
+
+/* feedback start here */
+#feedback {
+  background-color: #f3cfe4;
+  height: 520px;
+}
+.feedback-img {
+  width: 150px;
+  height: auto;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+.carousel-inner {
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+.carousel-item {
+  margin-top: 30px;
+}
+.feedback-title {
+  font-weight: lighter;
+  font-size: 20px;
+  margin-top: 5px;
+}
+.carousel-indicators {
+  margin-bottom: -30px;
+}
+/* feedback end here */
+
+/* contact me section start here */
+#contact {
+  padding: 4% 10%;
+  background-color: #9ad0ec;
+}
+/* contact me section end here */
+
+/* footer section start here */
+footer {
+  background-color: #00a6f9;
+  height: 100px;
+}
+.footer-icon {
+  color: white;
+  transition: 0.4s;
+}
+.footer-icon:hover {
+  color: black;
+  transform: scale(1.1);
+  background-color: white;
+  border-radius: 10px;
+}
+/* footer section end here */
